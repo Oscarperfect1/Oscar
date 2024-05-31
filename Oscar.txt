@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Oscar's Webpage</h1>
+        <p>Fundraising Campaign Promoter to Success</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#services">Service Price</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Oscar, a fundraising campaign promoter dedicated to bringing campaigns to success. With my expertise and passion, I help organizations and individuals achieve their funding goals efficiently and effectively.</p>
+        </div>
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Here you'll find some of the successful fundraising campaigns I've promoted. (Details of projects can be added here)</p>
+        </div>
+        <div id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Welcome to my blog where I share insights, tips, and stories about fundraising and campaign success. (Blog posts can be added here)</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Feel free to get in touch with me for any inquiries or collaboration opportunities.</p>
+            <p>Email: oscar@example.com</p>
+        </div>
+        <div id="services" class="section">
+            <h2>Service Price</h2>
+            <p>Here is a breakdown of my service prices for different types of fundraising campaigns. (Details about service pricing can be added here)</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Oscar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
